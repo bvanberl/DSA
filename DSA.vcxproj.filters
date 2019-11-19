@@ -24,12 +24,18 @@
     <ClCompile Include="Sorting\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sorting\bubble_sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting\insertion_sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sorting\selection_sort.h">
+    <ClInclude Include="Sorting\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sorting\utils.h">
+    <ClInclude Include="Sorting\sorting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

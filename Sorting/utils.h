@@ -1,9 +1,11 @@
 #ifndef UTILS_H
 #define UTILS_H
 
+#include <string>
+using namespace std;
 
 void swap(int *a, int *b);
 
-void printArray(int arr[], int n);
+string stringifyArray(int arr[], int n);
 
 #endif

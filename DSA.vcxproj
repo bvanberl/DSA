@@ -99,12 +99,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Sorting\bubble_sort.cpp" />
     <ClCompile Include="Sorting\driver.cpp" />
+    <ClCompile Include="Sorting\insertion_sort.cpp" />
     <ClCompile Include="Sorting\selection_sort.cpp" />
     <ClCompile Include="Sorting\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sorting\selection_sort.h" />
+    <ClInclude Include="Sorting\sorting.h" />
     <ClInclude Include="Sorting\utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

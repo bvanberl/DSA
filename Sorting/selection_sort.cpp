@@ -1,5 +1,4 @@
-#include <climits>
-#include "selection_sort.h"
+#include "sorting.h"
 #include "utils.h"
 
 /*

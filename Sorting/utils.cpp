@@ -1,6 +1,4 @@
 #include "utils.h"
-#include <iostream>
-using namespace std;
 
 /*
 Swaps two elements in an array
@@ -14,10 +12,12 @@ void swap(int *a, int *b) {
 }
 
 /*
-Prints the contents of an array on a single line
+Produces a string depicting the contents of an array
 */
-void printArray(int arr[], int n) {
+string stringifyArray(int arr[], int n) {
+	string arrString = "";
 	for (int i = 0; i < n; i++) {
-		cout << arr[i] << " ";
+		arrString += to_string(arr[i]) + " ";
 	}
+	return arrString;
 }
