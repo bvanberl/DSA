@@ -102,6 +102,8 @@
     <ClCompile Include="Sorting\bubble_sort.cpp" />
     <ClCompile Include="Sorting\driver.cpp" />
     <ClCompile Include="Sorting\insertion_sort.cpp" />
+    <ClCompile Include="Sorting\merge_sort.cpp" />
+    <ClCompile Include="Sorting\quick_sort.cpp" />
     <ClCompile Include="Sorting\selection_sort.cpp" />
     <ClCompile Include="Sorting\utils.cpp" />
   </ItemGroup>

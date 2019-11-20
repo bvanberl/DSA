@@ -1,5 +1,6 @@
 #include "sorting.h"
 #include "utils.h"
+
 /*
 Implements insertion sort to sort an array of integers
 -arr[]: the array to be sorted
