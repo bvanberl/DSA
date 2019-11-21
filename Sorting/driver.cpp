@@ -11,7 +11,7 @@ int main() {
 	cout << "Original array: " << stringifyArray(testArr, n) << endl;
 
 	// Sort the array
-	int *sortedArr = quickSort(testArr, n);
+	int *sortedArr = radixSort(testArr, n);
 
 	// Print resultant sorted array
 	cout << "Sorted array: " << stringifyArray(sortedArr, n) << endl;

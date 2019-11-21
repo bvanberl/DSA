@@ -11,4 +11,8 @@ string stringifyArray(int arr[], int n);
 
 int randInt(int low, int high);
 
+int maximum(int arr[], int n);
+
+int minimum(int arr[], int n);
+
 #endif
