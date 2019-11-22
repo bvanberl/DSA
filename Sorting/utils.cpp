@@ -65,3 +65,17 @@ int minimum(int arr[], int n) {
 	}
 	return min;
 }
+
+/*
+Returns minimum of 2 numbers
+-a: first number
+-b: second number
+*/
+int minimum(int a, int b) {
+	if (a <= b) {
+		return a;
+	}
+	else {
+		return b;
+	}
+}

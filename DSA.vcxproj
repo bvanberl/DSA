@@ -107,6 +107,7 @@
     <ClCompile Include="Sorting\quick_sort.cpp" />
     <ClCompile Include="Sorting\radix_sort.cpp" />
     <ClCompile Include="Sorting\selection_sort.cpp" />
+    <ClCompile Include="Sorting\timsort.cpp" />
     <ClCompile Include="Sorting\utils.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -14,5 +14,6 @@ int randInt(int low, int high);
 int maximum(int arr[], int n);
 
 int minimum(int arr[], int n);
+int minimum(int a, int b);
 
 #endif
