@@ -45,12 +45,21 @@
     <ClCompile Include="Sorting\timsort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DS\SinglyLinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DS\driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sorting\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sorting\sorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\SinglyLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

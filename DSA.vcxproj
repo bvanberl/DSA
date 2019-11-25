@@ -99,9 +99,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DS\driver.cpp" />
+    <ClCompile Include="DS\SinglyLinkedList.cpp" />
     <ClCompile Include="Sorting\bubble_sort.cpp" />
     <ClCompile Include="Sorting\counting_sort.cpp" />
-    <ClCompile Include="Sorting\driver.cpp" />
+    <ClCompile Include="Sorting\driver.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Sorting\insertion_sort.cpp" />
     <ClCompile Include="Sorting\merge_sort.cpp" />
     <ClCompile Include="Sorting\quick_sort.cpp" />
@@ -111,6 +115,7 @@
     <ClCompile Include="Sorting\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DS\SinglyLinkedList.h" />
     <ClInclude Include="Sorting\sorting.h" />
     <ClInclude Include="Sorting\utils.h" />
   </ItemGroup>
